@@ -63,7 +63,7 @@ print("Greatest Increase in Profits " + greatest_increase_date + " ($" + str(gre
 print("\n")
 print("Greatest Decrease in Profits " + greatest_decrease_date + " ($" + str(greatest_decrease) + ")")
 
-with open("Resources/Financial_analysis.txt", 'w') as sys.stdout:
+with open("analysis/Financial_analysis.txt", 'w') as sys.stdout:
     print("Financial Analysis")
     print("\n")
     print("----------------------------")
