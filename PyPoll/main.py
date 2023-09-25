@@ -63,7 +63,7 @@ print("-------------------------")
 print("Winner: " + highest_votes_count_name)
 print("-------------------------")
 
-with open("Resources/election_data.txt", 'w') as sys.stdout:
+with open("analysis/election_data.txt", 'w') as sys.stdout:
 
     print("Election Results")
     print("-------------------------")
